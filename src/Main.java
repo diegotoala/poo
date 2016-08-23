@@ -18,7 +18,12 @@ public class Main {
         UIRegistro objetoRegistro = new UIRegistro();
         objetoRegistro.setVisible(true);
         //error
+<<<<<<< HEAD
         //cambios
+=======
+       //ggggg
+        
+>>>>>>> d922297d53c70121220d8f376d1e87fee9ee3eeb
     }
     
 }
