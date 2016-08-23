@@ -18,7 +18,7 @@ public class Main {
         UIRegistro objetoRegistro = new UIRegistro();
         objetoRegistro.setVisible(true);
         //error
-        
+        //cambios
     }
     
 }
