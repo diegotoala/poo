@@ -17,7 +17,7 @@ public class Main {
         // TODO code application logic here
         UIRegistro objetoRegistro = new UIRegistro();
         objetoRegistro.setVisible(true);
-        error
+        //error
         
     }
     
