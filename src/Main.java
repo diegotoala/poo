@@ -19,13 +19,7 @@ public class Main {
         objetoRegistro.setVisible(true);
         String v = "Hola";
         
-        //error
-<<<<<<< HEAD
-        //cambios
-=======
-       //ggggg
-        
->>>>>>> d922297d53c70121220d8f376d1e87fee9ee3eeb
+   
     }
     
 }
