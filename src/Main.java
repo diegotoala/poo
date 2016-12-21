@@ -17,13 +17,9 @@ public class Main {
         // TODO code application logic here
         UIRegistro objetoRegistro = new UIRegistro();
         objetoRegistro.setVisible(true);
-        //error
-<<<<<<< HEAD
-        //cambios
-=======
-       //ggggg
+        String v = "Hola";
         
->>>>>>> d922297d53c70121220d8f376d1e87fee9ee3eeb
+   
     }
     
 }
