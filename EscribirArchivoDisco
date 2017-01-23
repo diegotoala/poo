@@ -1,0 +1,9 @@
+ try{
+            FileWriter fw = new FileWriter("archivodatos.txt");
+            StringWriter sw = new StringWriter();
+            sw.write("campo1 \t campo2 \t campo3 \t campo4");
+            fw.write(sw.toString());
+            fw.close();
+        }catch(Exception e){
+            
+}
