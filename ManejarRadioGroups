@@ -1,0 +1,27 @@
+public UICliente() {
+        initComponents();
+        VoteItemListener listener = new VoteItemListener();
+        this.groupOpcion1.addItemListener(listener);
+        this.grupoOpcion2.addItemListener(listener);
+        
+    }
+
+ class VotacionListener implements ActionListener {
+        public void actionPerformed(ActionEvent ex) {
+        String choice = buttonGroup1.getSelection().getSelectedObjects()[0].toString();
+        System.out.println("ACTION Candidate Selected: " + choice);
+      }
+    }
+    
+    public String radioSeleccionado = "";
+    
+    class VoteItemListener implements ItemListener {
+      public void itemStateChanged(ItemEvent ex) {
+        String item = ((AbstractButton) ex.getItemSelectable()).getActionCommand();
+        boolean selected = (ex.getStateChange() == ItemEvent.SELECTED);
+        System.out.println("ITEM Candidate Selected: " + selected + " Selection: " + item);
+        
+        if(selected)
+            radioSeleccionado = item;
+      }
+    }
