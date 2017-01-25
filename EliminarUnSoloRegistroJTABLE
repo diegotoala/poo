@@ -1,0 +1,8 @@
+int indiceAEliminar = dataTable.getSelectedRowCount();
+        
+        //#9 Consultar si seleccionaron una linea para eliminar
+        if(indiceAEliminar>=0){
+            modelo.removeRow(indiceAEliminar-1);
+        }else{
+            JOptionPane.showMessageDialog(null, "No hay datos seleccionados para eliminar");
+        }

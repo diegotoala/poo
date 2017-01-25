@@ -1,0 +1,6 @@
+//#10 Eliminar todos los registros disponibles
+        int eliminarTodas = dataTable.getSelectedRowCount();
+        
+        //#11 Recorrido inverso para eliminar registros
+        for (int i = eliminarTodas-1; i >=0; i--) 
+            modelo.removeRow(i);
