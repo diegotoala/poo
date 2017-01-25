@@ -1,0 +1,6 @@
+223 	 DASANI CON GAS 	 0.8 
+38 	 DASANI SABOR LIMON 	 0.5 
+39 	 DASANI AGUA DE FRUTAS 	 0.24 
+90 	 pure water 	 0.6 
+35 	 Agua pura 	 0.3 
+37 	 VIVANT CON GAS 	 0.8 
